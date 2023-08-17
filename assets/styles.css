@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-color: black;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+  
+  .main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5%;
+  background-color: #05ac0d;
+  color: black;
+  }
+
+  .tabs {
+    display:flex;
+    
+  }
+  .tabs li {
+    padding: 10px;
+    list-style-type: none;
+  }
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    color: #05ac0d;
+    text-align: center;
+    font-size: 35px;
+}
+
+  .content {
+    width: 99%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+.card {
+  flex: 1 0 0;
+  padding: 10px;
+  flex-wrap: nowrap;
+}
+
+
+.card img {
+  width: 200px;
+  min-width: 600px;
+  border-radius: 35px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 50px;
+}
+  
+
+.css {
+    margin-bottom: 10px;
+    padding: 40px;
+    height: 300px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #05ac0d;
+    color: black;
+}
+
+.html {
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 300px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #05ac0d;
+    color: black;
+}
+
+.java {
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 300px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #05ac0d;
+    color: black;
+}
+
+
+.work {
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 300px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #05ac0d;
+    color: black;
+}
+
+.css img {
+    max-height: 350px;
+}
+
+.html img {
+    max-height: 250px;
+}
+
+.java img {
+    max-height: 350px;
+}
+
+.work img {
+  max-height: 400px;
+}
+
+.css h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.html h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.java h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.work h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.footer {
+  color: #05ac0d;
+  text-align: center;
+  font-size: 25px;
+}
+
+button {
+  width: 100%;
+  margin: 0 .5%;
+  font-size: 200%;
+  color: black;
+  background-color: black;
+}
+
+button:hover {
+  background-color: #05ac0d;
+  color: black;
+}
+
+button:active {
+  font-size: 250%;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+button:focus {
+  outline: none;
+  border-color: black;
+}
+button {
+  width: 150px;
+  margin: 0 15%;
+  font-size: 100%;
+  color: black;
+  background-color: black;
+  border: 3px solid #05ac0d;
+}
+
+button:hover {
+  background-color: #05ac0d;
+  color: black;
+}
+
+button:active {
+  font-size: 300%;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+button:focus {
+  outline: none;
+  border-color: #05ac0d;
+}

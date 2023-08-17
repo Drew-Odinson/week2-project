@@ -81,7 +81,7 @@ h1 {
 .css {
     margin-bottom: 10px;
     padding: 40px;
-    height: 300px;
+    /* height: 300px; */
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     background-color: #05ac0d;
@@ -91,7 +91,7 @@ h1 {
 .html {
     margin-bottom: 20px;
     padding: 40px;
-    height: 300px;
+    /* height: 300px; */
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     background-color: #05ac0d;
@@ -101,7 +101,7 @@ h1 {
 .java {
     margin-bottom: 20px;
     padding: 40px;
-    height: 300px;
+    /* height: 300px; */
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     background-color: #05ac0d;
@@ -112,7 +112,7 @@ h1 {
 .work {
     margin-bottom: 20px;
     padding: 40px;
-    height: 300px;
+    /* height: 300px; */
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     background-color: #05ac0d;
